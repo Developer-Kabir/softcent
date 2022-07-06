@@ -1,38 +1,231 @@
-.App {
-  text-align: center;
+.container {
+  margin: 13px 150px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2{
+  font-size: 64px;
+}
+h3{
+  font-size: 36px;
+}
+h4{
+  font-size: 28px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flex{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+
+/* Header Style start 
+===================================== */
+
+.navmenu {
+  display: flex;
+}
+
+.header-main {
+  width: 25%;
+}
+
+.header-menu {
+  width: 75%;
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul button {
+  background-color: #3088FF;
+  margin-left: 20px;
+  padding: 14px 20px;
   color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
 }
 
-.App-link {
-  color: #61dafb;
+.header-menu ul li {
+  display: inline;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+li a {
+  text-decoration: none;
+  margin: 0px 21px;
+  font-size: 18px;
 }
+
+
+/* Header Style end
+===================================== */
+
+
+/* about Style start 
+===================================== */
+
+.v-img {
+  background: url(https://i.ibb.co/tDdqQ4K/guy-shows-document-girl-group-young-freelancers-office-have-conversation-working-1-1.png);
+  height: 568px;
+  width: 100%;
+}
+
+.v-player {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  background-color: white;
+  padding: 22px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+
+/* about Style end
+===================================== */
+
+/* Our Customer Style start 
+===================================== */
+
+.customer-heading {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.customer-underline {
+  text-align: center;
+  margin-top: -40px;
+}
+
+.customer-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 65px;
+}
+
+.image-4 {
+  margin-top: 20px;
+}
+
+
+/* Our Customer Style end 
+===================================== */
+
+/* What we do Style start 
+===================================== */
+
+.what-we-do-heading {
+  margin-top: 100px;
+}
+
+.what-we-do-underline{
+  width: 194px;
+  margin-top: -40px;
+  margin-bottom: 60px;
+}
+
+.what-we-do-underline img{
+  width: 100%;
+}
+
+.what-we-do-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 200px;
+}
+
+.what-we-do{
+  display: flex;
+  margin-bottom: 17px;
+}
+
+.what-we-do h4{
+  margin: 14px 0px 0px 10px;
+}
+
+.what-we-do-list li{
+  margin: 25px 0px;
+}
+
+
+
+.products-heading{
+  margin-top: 230px;
+}
+
+.products-underline{
+  width: 200px;
+  margin-top: -40px;
+  margin-bottom: 24px;
+}
+
+.products-underline img{
+  width: 100%;
+}
+
+.products-section-btn{
+  background-color: #3088FF;
+  padding: 15px 37px;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 7px;
+}
+
+
+.product-container-1{
+  display: flex;
+  margin-top: 90px;
+}
+.product-container-2{
+  display: flex;
+}
+
+
+.product-detail{
+  padding: 130px 60px 60px 60px;
+  width: 34%;
+  margin-left: 150px;
+}
+.product-detail-2{
+  padding: 130px 60px 60px 60px;
+  width: 34%;
+  margin-right: 150px;
+}
+
+.p-button{
+  background-color:#3088FF1F;
+  margin-top: 34px;
+  padding: 10px 25px ;
+  font-size: 18px;
+  color: black;
+  border: none;
+  border-radius: 7px;
+}
+
+
+.product-img{
+  width: 50%;
+  margin-left: auto;
+  max-height: 585px;
+  padding: 10px 0px 0px 50px;
+  background-color: #CEDEF4;
+}
+
+.product-img-1{
+  background: url(https://i.ibb.co/r5cd4Nn/i-Phone-11-extra-Shadow-5-1.png);
+  background-repeat: no-repeat;
+  background-position-x: 80%;
+  background-position-y:25%;
+}
+.product-img-3{
+  background: url(https://i.ibb.co/8X6gPfh/i-Phone-11-extra-Shadow-5-1-1.png);
+  background-repeat: no-repeat;
+  background-position-x: 80%;
+  background-position-y:25%;
+}
+
+
