@@ -365,4 +365,26 @@ li a {
 
 
 
+.dth-grid{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 30px;
+}
+
+.dth-grid h5{
+  border-bottom: 5px solid white ; 
+}
+
+.dth-grid h5:hover{
+ border-bottom: 5px solid #3088FF ;
+}
+
+.tech-grid{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 140px;
+}
+
+
+
 

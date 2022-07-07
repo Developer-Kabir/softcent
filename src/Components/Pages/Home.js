@@ -5,6 +5,7 @@ import Portfolio from './Portfolio';
 import Pricing from './Pricing';
 import Products from './Products';
 import TalkAboutUs from './TalkAboutUs';
+import Technology from './Technology';
 import WhatWeDo from './WhatWeDo';
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
             <Pricing></Pricing>
             <TalkAboutUs></TalkAboutUs>
             <Portfolio></Portfolio>
+            <Technology></Technology>
         </div>
     );
 };
