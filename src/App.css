@@ -11,6 +11,12 @@ h3{
 h4{
   font-size: 28px;
 }
+h5{
+  font-size: 24px;
+}
+h6{
+  font-size: 20px;
+}
 
 .flex{
   display: flex;
@@ -227,5 +233,84 @@ li a {
   background-position-x: 80%;
   background-position-y:25%;
 }
+
+
+
+
+
+.pricing-header{
+  text-align: center;
+}
+
+.pricing-underline{
+  margin: -35px auto 0px auto;
+  width: 150px;
+}
+
+.pricing-underline img{
+  width: 100%;
+}
+
+.pricing-text{
+  width: 582px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.pricing-btn{
+ text-align: center;
+}
+
+.pricing-btn button{
+  margin: 0px 10px;
+}
+
+.p-button:hover{
+  background-color: #3088FF ;
+  color: white;
+}
+
+.pricing-card-grid{
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 45px;
+}
+
+.pricing-card{
+  padding: 20px 16px;
+  border: none;
+  border-radius: 12px;
+}
+
+.pricing-card:hover{
+  background-color: #3088FF;
+  color: white;
+}
+
+
+.pricing-card-heading{
+  background: url(https://i.ibb.co/G5F56gQ/Rectangle-10.png);
+  background-repeat: no-repeat;
+  background-position-y: 58%;
+  background-size: 154px;
+  margin: -40px 0px -20px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pricing-card-list li{
+  margin: 18px 0px;
+}
+
+.pricing-card-button{
+  background-color: #F6A00E;
+  margin: 0px 28px 7px 28px;
+  padding: 12px 100px;
+  border: none;
+  border-radius: 12px;
+}
+
+
 
 
