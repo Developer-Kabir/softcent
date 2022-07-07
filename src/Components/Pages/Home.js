@@ -7,6 +7,7 @@ import Products from './Products';
 import TalkAboutUs from './TalkAboutUs';
 import Technology from './Technology';
 import WhatWeDo from './WhatWeDo';
+import WorkFlow from './WorkFlow';
 
 const Home = () => {
     return (
@@ -19,6 +20,7 @@ const Home = () => {
             <TalkAboutUs></TalkAboutUs>
             <Portfolio></Portfolio>
             <Technology></Technology>
+            <WorkFlow></WorkFlow>
         </div>
     );
 };
