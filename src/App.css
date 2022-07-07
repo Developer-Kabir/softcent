@@ -314,3 +314,55 @@ li a {
 
 
 
+
+
+
+
+.talk-rev{
+  padding: 50px;
+  width: 50%;
+}
+
+.quote-2{
+  margin-top: 40px;
+}
+
+
+
+
+.port-button{
+  margin-top: 100px;
+  margin-left: auto;
+}
+
+.port-button button{
+  background-color: white;
+  font-size: 30px;
+  padding: 10px;
+  border: none;
+  margin: 0px 10px;
+  border-radius: 50%;
+}
+
+.port-button button:hover{
+  background-color: #3088FF;
+}
+
+.port-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.port-img{
+  padding: 10px;
+}
+
+.port-img img{
+  border: none;
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+
+
