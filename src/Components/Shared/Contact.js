@@ -21,27 +21,27 @@ const Contact = () => {
                     <p>Email: info@softcent.eu</p>
                     <p>Phone: +(372) 57836500</p>
                     <div className='flex'>
-                    <Link to='/https://web.facebook.com/search/top?q=softcent'><img  style={{
-                        width:'40px',
-                        margin:'0px 5px'
-                    }} src="Assets/facebook-brands.svg" alt=""/></Link>
-                    <Link to='/'><img  style={{
-                        width:'40px',
-                        margin:'0px 5px'
-                    }} src="Assets/linkedin-in-brands.svg" alt=""/></Link>
-                    <Link to='/'><img  style={{
-                        width:'40px',
-                        margin:'0px 5px'
-                    }} src="Assets/instagram-brands.svg" alt=""/></Link>
-                    <Link to='/'><img  style={{
-                        width:'40px',
-                        margin:'0px 5px'
-                    }} src="Assets/twitter-brands.svg" alt=""/></Link>
-                    
-                    <Link to='/'><img  style={{
-                        width:'40px',
-                        margin:'0px 5px'
-                    }} src="Assets/whatsapp-brands.svg" alt=""/></Link>
+                        <Link to='/https://web.facebook.com/search/top?q=softcent'><img style={{
+                            width: '40px',
+                            margin: '0px 5px'
+                        }} src="Assets/facebook-brands.svg" alt="" /></Link>
+                        <Link to='/'><img style={{
+                            width: '40px',
+                            margin: '0px 5px'
+                        }} src="Assets/linkedin-in-brands.svg" alt="" /></Link>
+                        <Link to='/'><img style={{
+                            width: '40px',
+                            margin: '0px 5px'
+                        }} src="Assets/instagram-brands.svg" alt="" /></Link>
+                        <Link to='/'><img style={{
+                            width: '40px',
+                            margin: '0px 5px'
+                        }} src="Assets/twitter-brands.svg" alt="" /></Link>
+
+                        <Link to='/'><img style={{
+                            width: '40px',
+                            margin: '0px 5px'
+                        }} src="Assets/whatsapp-brands.svg" alt="" /></Link>
                     </div>
                 </div>
                 <div className='port-grid' style={{ width: '70%', marginTop: '30px' }}>
