@@ -4,7 +4,7 @@ const Technology = () => {
     return (
         <div className='container'>
             <div>
-                <h3 className='customer-heading'>Our Dev Technology</h3>
+                <h3 style={{marginTop:'80px',textAlign:'center'}}>Our Dev Technology</h3>
                 <p className='customer-underline'><img src="https://i.ibb.co/3yx1zHc/Underline-3.png" alt="" /></p>
 
                 <div>

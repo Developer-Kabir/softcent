@@ -3,7 +3,7 @@ import React from 'react';
 const Pricing = () => {
     return (
         <div className='container'>
-            <h3 className='pricing-header'>Pricing Package Choose Your Plan</h3>
+            <h3 style={{textAlign:'center',marginTop:'150px'}}>Pricing Package Choose Your Plan</h3>
             <div className='pricing-underline'>
                 <p><img src="https://i.ibb.co/3yx1zHc/Underline-3.png" alt="" /></p>
             </div>
@@ -76,7 +76,7 @@ const Pricing = () => {
                 <div className='pricing-card'>
                     <div className='pricing-card-heading'>
                         <h4>Development</h4>
-                        <h6>$899/mo</h6>
+                        <h6>$1499/mo</h6>
                     </div>
 
                     <ul className='pricing-card-list'>
@@ -99,7 +99,7 @@ const Pricing = () => {
                         <li className='flex'> ✔ 
                         <p style={{marginLeft:"10px",marginTop:"3px"}}>Logo & Brand Guide</p></li>
                     </ul>
-                    <button className='pricing-card-button'>$1000/mo</button>
+                    <button className='pricing-card-button'>$1499/mo</button>
                 </div>
                 
             </div>

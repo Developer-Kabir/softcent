@@ -3,7 +3,7 @@ import React from 'react';
 const Customer = () => {
     return (
         <div className='container'>
-            <h3 className='customer-heading'>Our Customers</h3>
+            <h3 style={{marginTop:'120px', textAlign:'center'}}>Our Customers</h3>
           <p className='customer-underline'><img src="https://i.ibb.co/3yx1zHc/Underline-3.png" alt="" /></p>
             <div className='customer-grid'>
                 <img src='https://i.ibb.co/PTtfmgt/image-1.png' alt=''></img>

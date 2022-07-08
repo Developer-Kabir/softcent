@@ -3,7 +3,7 @@ import React from 'react';
 const WhatWeDo = () => {
     return (
         <div className='container'>
-            <h3 className='what-we-do-heading'>What We Do</h3>
+            <h3 style={{marginTop:'130px'}}>What We Do</h3>
             <div className='what-we-do-underline'>
                 <p><img src="https://i.ibb.co/3yx1zHc/Underline-3.png" alt="" /></p>
             </div>

@@ -4,7 +4,7 @@ const Products = () => {
     return (
         <div>
             <div className='container'>
-                <h3 className='products-heading'>Our Products</h3>
+                <h3 style={{margintop:'80px'}}>Our Products</h3>
                 <div className='products-underline'>
                     <p><img src="https://i.ibb.co/3yx1zHc/Underline-3.png" alt="" /></p>
                 </div>
@@ -17,7 +17,7 @@ const Products = () => {
             </div>
 
             <div className='product-container-1'>
-               <div className='product-detail'>
+               <div style={{marginLeft:'150px'}} className='product-detail'>
                    <h3 className='p-heading'>SwipeXYZ Product</h3> 
                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                    <button className='p-button'>View Product</button>
@@ -34,7 +34,7 @@ const Products = () => {
                         <img className='product-img-4' src="https://i.ibb.co/c2XtKZ1/i-Phone-11-extra-Shadow-4-1-1.png" alt=""/>
                     </div>
                </div>  
-               <div className='product-detail-2'>
+               <div style={{marginRight:'150px'}} className='product-detail'>
                    <h3 className='p-heading'>SwipeXYZ Product</h3> 
                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                    <button className='p-button'>View Product</button>

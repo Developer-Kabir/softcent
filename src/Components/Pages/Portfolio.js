@@ -3,9 +3,9 @@ import React from 'react';
 const Portfolio = () => {
     return (
         <div className='container'>
-            <div className='flex'>
+            <div  style={{margintop:'50px'}} className='flex'>
                 <div>
-                    <h3 className='what-we-do-heading'>Our Portfolio</h3>
+                    <h3>Our Portfolio</h3>
                     <div className='what-we-do-underline'>
                         <p><img src="https://i.ibb.co/3yx1zHc/Underline-3.png" alt="" /></p>
                     </div>
@@ -37,7 +37,7 @@ const Portfolio = () => {
                 </div>
             </div>
 
-            <div style={{textAlign:'center'}}>
+            <div style={{textAlign:'center',marginTop:'50px'}}>
                 <button className='products-section-btn'>See All Portfolio</button>
             </div>
         </div>
