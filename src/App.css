@@ -1,34 +1,50 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Overlock:wght@700&display=swap');
+
+body {
   background: url(https://i.ibb.co/Dr00jMZ/Ellipse-1.png);
   background-repeat: no-repeat;
   background-position-x: 230%;
   background-position-y: -7%;
 
- 
+  color: black;
 }
+p{
+  font-family: 'Nunito';
+}
+
 
 .container {
   margin: 13px 150px;
 }
 
-h2{
+h2 {
   font-size: 64px;
-}
-h3{
-  font-size: 36px;
-}
-h4{
-  font-size: 28px;
-}
-h5{
-  font-size: 24px;
-}
-h6{
-  font-size: 20px;
+  font-family: 'Overlock';
 }
 
-.flex{
+h3 {
+  font-size: 36px;
+  font-family: 'Overlock';
+}
+
+h4 {
+  font-size: 28px;
+  font-family: 'Overlock';
+}
+
+h5 {
+  font-size: 24px;
+  font-family: 'Overlock';
+}
+
+h6 {
+  font-size: 20px;
+  font-family: 'Overlock';
+}
+
+.flex {
   display: flex;
+  font-family: 'Overlock';
 }
 
 /* Header Style start 
@@ -39,12 +55,12 @@ h6{
 }
 
 .header-main {
-  width: 15%;
+  width: 20%;
 }
 
 .header-menu {
 
-  width: 85%;
+  width: 80%;
   margin-top: 20px;
 }
 
@@ -67,11 +83,15 @@ ul button {
 .header-menu ul li {
   display: inline;
 }
-
+li{
+  font-family: 'Nunito';
+}
 li a {
   text-decoration: none;
-  margin: 0px 21px;
+  margin: 0px 15px;
   font-size: 18px;
+  color: black;
+  font-family: 'Nunito';
 }
 
 /* Header Style end
@@ -80,7 +100,7 @@ li a {
 /* about Style start 
 ===================================== */
 
-.about{
+.about {
   padding-top: 30px;
   background: url(https://i.ibb.co/Dr00jMZ/Ellipse-1.png);
   background-repeat: no-repeat;
@@ -93,14 +113,20 @@ li a {
   width: 100%;
 }
 
-.v-player {
+#v-player {
   display: flex;
   justify-content: center;
-  align-self: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.v-button {
   background-color: white;
   padding: 22px;
   border: 1px solid white;
   border-radius: 50%;
+
 }
 
 /* about Style end
@@ -136,7 +162,7 @@ li a {
 /* What we do Style start 
 ===================================== */
 
-.workflow{
+.workflow {
   padding-top: 50px;
   background: url(https://i.ibb.co/68BxtYp/Ellipse-2.png);
   background-repeat: no-repeat;
@@ -144,17 +170,17 @@ li a {
   background-position-y: 60%;
 }
 
-.what-we-do-underline{
+.what-we-do-underline {
   width: 194px;
   margin-top: -40px;
   margin-bottom: 60px;
 }
 
-.what-we-do-underline img{
+.what-we-do-underline img {
   width: 100%;
 }
 
-.what-we-do-grid{
+.what-we-do-grid {
   background: url(https://i.ibb.co/68BxtYp/Ellipse-2.png);
   background-repeat: no-repeat;
   background-position-x: -240%;
@@ -166,16 +192,16 @@ li a {
   padding: 50px 0px;
 }
 
-.what-we-do{
+.what-we-do {
   display: flex;
   margin-bottom: 17px;
 }
 
-.what-we-do h4{
+.what-we-do h4 {
   margin: 14px 0px 0px 10px;
 }
 
-.what-we-do-list li{
+.what-we-do-list li {
   margin: 25px 0px;
 }
 
@@ -185,17 +211,17 @@ li a {
 /* product Style start 
 ===================================== */
 
-.products-underline{
+.products-underline {
   width: 200px;
   margin-top: -40px;
   margin-bottom: 24px;
 }
 
-.products-underline img{
+.products-underline img {
   width: 100%;
 }
 
-.products-section-btn{
+.products-section-btn {
   background-color: #3088FF;
   padding: 15px 37px;
   color: white;
@@ -204,31 +230,32 @@ li a {
   border-radius: 7px;
 }
 
-.product-container-1{
+.product-container-1 {
   display: flex;
   margin-top: 90px;
 }
-.product-container-2{
+
+.product-container-2 {
   display: flex;
   margin-bottom: 90px;
 }
 
-.product-detail{
+.product-detail {
   padding: 130px 60px 60px 60px;
   width: 32%;
 }
 
-.p-button{
-  background-color:#3088FF1F;
+.p-button {
+  background-color: #3088FF1F;
   margin-top: 34px;
-  padding: 10px 25px ;
+  padding: 10px 25px;
   font-size: 18px;
   color: black;
   border: none;
   border-radius: 7px;
 }
 
-.product-img{
+.product-img {
   width: 53%;
   margin-left: auto;
   max-height: 585px;
@@ -236,18 +263,18 @@ li a {
   background-color: #CEDEF4;
 }
 
-.product-img-1{
+.product-img-1 {
   background: url(https://i.ibb.co/r5cd4Nn/i-Phone-11-extra-Shadow-5-1.png);
   background-repeat: no-repeat;
   background-position-x: 88%;
-  background-position-y:25%;
+  background-position-y: 25%;
 }
 
-.product-img-3{
+.product-img-3 {
   background: url(https://i.ibb.co/8X6gPfh/i-Phone-11-extra-Shadow-5-1-1.png);
   background-repeat: no-repeat;
   background-position-x: 88%;
-  background-position-y:25%;
+  background-position-y: 25%;
 }
 
 /* product Style end 
@@ -256,54 +283,54 @@ li a {
 /* pricing Style start 
 ===================================== */
 
-.pricing-underline{
+.pricing-underline {
   margin: -35px auto 0px auto;
   width: 150px;
 }
 
-.pricing-underline img{
+.pricing-underline img {
   width: 100%;
 }
 
-.pricing-text{
+.pricing-text {
   width: 582px;
   margin: 18px auto;
   text-align: center;
 }
 
-.pricing-btn{
+.pricing-btn {
 
- text-align: center;
+  text-align: center;
 }
 
-.pricing-btn button{
+.pricing-btn button {
   margin: 20px 10px;
 }
 
-.p-button:hover{
-  background-color: #3088FF ;
+.p-button:hover {
+  background-color: #3088FF;
   color: white;
 }
 
-.pricing-card-grid{
+.pricing-card-grid {
   margin-top: 50px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 5px;
 }
 
-.pricing-card{
+.pricing-card {
   padding: 20px 16px;
   border: none;
   border-radius: 12px;
 }
 
-.pricing-card:hover{
+.pricing-card:hover {
   background-color: #3088FF;
   color: white;
 }
 
-.pricing-card-heading{
+.pricing-card-heading {
   background: url(https://i.ibb.co/G5F56gQ/Rectangle-10.png);
   background-repeat: no-repeat;
   background-position-y: 58%;
@@ -313,11 +340,11 @@ li a {
   justify-content: space-between;
 }
 
-.pricing-card-list li{
+.pricing-card-list li {
   margin: 18px 0px;
 }
 
-.pricing-card-button{
+.pricing-card-button {
   background-color: #F6A00E;
   margin: 0px 28px 7px 28px;
   padding: 12px 100px;
@@ -331,7 +358,8 @@ li a {
 /* talk Style start 
 ===================================== */
 
-.talk-rev{
+.talk-rev {
+  
   padding: 50px;
   width: 50%;
 }
@@ -346,11 +374,11 @@ li a {
 /* portfolio Style start 
 ===================================== */
 
-.port-button{
+.port-button {
   margin: auto 0px auto auto;
 }
 
-.port-button button{
+.port-button button {
   background-color: white;
   font-size: 30px;
   padding: 10px;
@@ -359,21 +387,21 @@ li a {
   border-radius: 50%;
 }
 
-.port-button button:hover{
+.port-button button:hover {
   background-color: #3088FF;
   color: white;
 }
 
-.port-grid{
+.port-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
-.port-img{
+.port-img {
   padding: 10px;
 }
 
-.port-img img{
+.port-img img {
   border: none;
   width: 100%;
   border-radius: 10px;
@@ -385,21 +413,21 @@ li a {
 /* technology Style start 
 ===================================== */
 
-.dth-grid{
+.dth-grid {
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 30px;
 }
 
-.dth-grid h5{
-  border-bottom: 5px solid white ; 
+.dth-grid h5 {
+  border-bottom: 5px solid white;
 }
 
-.dth-grid h5:hover{
- border-bottom: 5px solid #3088FF ;
+.dth-grid h5:hover {
+  border-bottom: 5px solid #3088FF;
 }
 
-.tech-grid{
+.tech-grid {
   margin-top: 50px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -412,7 +440,7 @@ li a {
 /* Working Style start 
 ===================================== */
 
-.acordian{
+.acordian {
   background: url(https://i.ibb.co/Dr00jMZ/Ellipse-1.png);
   background-repeat: no-repeat;
   background-position-x: 10%;
@@ -421,28 +449,27 @@ li a {
   padding: 0px 50px;
 }
 
-.ac-s-img{
+.ac-s-img {
   width: 50%;
 }
 
-.ac-s-img img{
+.ac-s-img img {
   width: 100%;
 }
 
-.accordion__button:before{
+.accordion__button:before {
   display: none !important;
 }
 
 /* Working Style end 
 ===================================== */
 
-.contact{
-
+.contact {
   margin-top: 100px;
-  padding: 55px 0px;
+  padding: 55px 0px 15px 0px;
 }
 
-.contact-banner{
+.contact-banner {
   padding: 0px 45px;
   color: white;
   border-radius: 12px;
@@ -450,12 +477,15 @@ li a {
   display: flex;
 }
 
-.contact-btn{
+.contact-btn {
   background-color: white;
   margin-left: 20px;
   padding: 14px 20px;
-  color:#2D5BFF;
+  color: #2D5BFF;
   font-size: 18px;
   border: none;
   border-radius: 8px;
 }
+
+
+
